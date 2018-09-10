@@ -9,7 +9,7 @@
 import UIKit
 import AlamofireImage
 
-class PhotosViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate {
+class PhotosViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     var posts: [[String: Any]] = []
     var refreshControl: UIRefreshControl!
 
@@ -25,6 +25,7 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
         
         tableView.dataSource = self
         tableView.rowHeight = 200
+        tableView.delegate = self
         fetchPosts()
 
     }
