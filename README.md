@@ -95,6 +95,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
+The challenge I had is to remove the grey selection effect.
+
 ## License
 
     Copyright [2018] [KaHo Lee]
